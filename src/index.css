@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1020px) {
+  .searchPage_results {
+    margin-left: 170px !important;
+  }
+  .searchPage_header {
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 820px) {
+  .homePage {
+    margin-right: 40px !important;
+  }
+  .searchPage_results {
+    margin-left: 130px !important;
+  }
+  .searchPage_option {
+    margin-right: 7px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .searchPage_header {
+    padding: 12px !important;
+  }
+  .homePage {
+    margin-right: 18px !important;
+  }
+  .searchPage_results {
+    margin-left: 95px !important;
+    margin-bottom: 75px !important;
+  }
+  .footer {
+    padding-left: 13% !important;
+  }
+}
+
+@media (max-width: 630px) {
+  .searchPage_header {
+    padding: 6px !important;
+  }
+  .searchPage_results {
+    margin-left: 78px !important;
+    margin-bottom: 60px !important;
+  }
+  .searchPage_resultDescription {
+    margin-top: 5px !important;
+  }
+  .searchPage_options {
+    font-size: 14px !important;
+  }
+  .search_input {
+    width: 460px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .searchPage .Title {
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .search_input {
+    width: 440px !important;
+  }
+  .searchPage_options {
+    font-size: 13px !important;
+  }
+}
