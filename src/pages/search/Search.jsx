@@ -11,6 +11,7 @@ import MicIcon from "@mui/icons-material/Mic";
 function Search({ hideButtons }) {
   const [input, setInput] = useState("");
   const navigate = useNavigate();
+  // eslint-disable-next-line
   const [{}, dispatch] = useStateValue();
 
   function handleSubmit(e) {
